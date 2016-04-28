@@ -1,0 +1,236 @@
+/* Meyer Reset */
+
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/* GENERAL */
+
+html {
+	font-size: 18px;
+}
+
+body {
+	background-color: #f7f7f7;
+	color: #747474;
+	font-family: 'Karla', Arial, Helvetica, sans-serif;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+}
+
+/* TYPOGRAPHY */
+
+a {
+	text-decoration: none;
+}
+
+p {
+	font-size: 1rem;
+	line-height: 1.5rem;
+	margin: 1.5rem 0;
+}
+
+h1 {
+	font-family: 'PT Serif', Georgia, serif;
+	font-size: 2.5rem;
+	font-weight: 700;
+	color: #404040;
+	line-height: 1.2em;
+}
+
+h1 a {
+	color: inherit;
+	border-bottom: 2px solid #E0E0E0;
+	transition: all 0.2s ease-in-out;
+	-moz-transition: all 0.2s ease-in-out;
+	-webkit-transition: all 0.2s ease-in-out;
+	-o-transition: all 0.2s ease-in-out;
+}
+
+h1 a:hover {
+	color: #005FE4;
+	border-bottom: 2px solid #005FE4;
+}
+
+h2 {
+	font-family: 'PT Serif', Georgia, serif;
+	font-size: 1.5rem;
+	font-weight: 700;
+	color: #404040;
+	line-height: 1.2em;	
+}
+
+/* STRUCTURE */
+
+header {
+	width: 100%;
+	background-color: #fff;
+	margin-bottom: 100px;
+}
+
+
+.logo {
+  background: url("../img/am-logo.svg") no-repeat center center;
+  fill: #005FE4;
+  width: 38px;
+  height: 32px;
+  overflow: hidden;
+  opacity: 1;
+  transition: opacity 0.2s ease-in-out;
+  -moz-transition: opacity 0.2s ease-in-out;
+  -webkit-transition: opacity 0.2s ease-in-out;
+  -o-transition: opacity 0.2s ease-in-out; 
+}
+
+.logo:hover {
+  opacity: 0.5;
+  transition: opacity 0.2s ease-in-out;
+  -moz-transition: opacity 0.2s ease-in-out;
+  -webkit-transition: opacity 0.2s ease-in-out;
+  -o-transition: opacity 0.2s ease-in-out; 
+}
+
+main {
+	max-width: 960px;
+	margin: 0 auto;
+}
+
+nav {
+	max-width: 960px;
+	margin: 0 auto;
+	padding: 30px 0;
+	overflow: hidden;
+}
+
+.logo {
+  float: left; 
+}
+
+.menu-right {
+  float: right; 
+  padding-top: 6px;
+}
+
+.menu-right li {
+  font-size: 0.875rem;
+  margin-left: 40px;
+  color: #747474;
+  display: inline; 
+}
+
+.menu-right li a {
+  color: #747474;
+  border-bottom: 1px solid transparent;
+  padding-bottom: 8px;
+  transition: all 0.2s ease-in-out;
+  -moz-transition: all 0.2s ease-in-out;
+  -webkit-transition: all 0.2s ease-in-out;
+  -o-transition: all 0.2s ease-in-out; 
+}
+
+.menu-right li a:hover {
+  color: #005FE4;
+  border-bottom: 1px solid #005FE4;
+  padding-bottom: 2px;
+  transition: all 0.2s ease-in-out;
+  -moz-transition: all 0.2s ease-in-out;
+  -webkit-transition: all 0.2s ease-in-out;
+  -o-transition: all 0.2s ease-in-out; 
+}
+
+/* ------ STYLE ------ */
+
+.intro {
+	margin-bottom: 4rem;
+}
+
+.home-wrap {
+	padding-left: 8rem;
+}
+
+.journal-preview {
+	margin: 4rem 0;
+}
+
+/* BUTTONS */
+.btn-stroke-blue {
+	font-family: 'Inconsolata', Courier, monospace;
+	font-size: 0.75rem;
+	border-radius: 4px;
+	padding: 0.75rem 1rem;
+	border: 1px solid #005FE4;
+	color: #005FE4;
+	display: inline-block;
+	background-color: transparent;
+	transition: all 0.2s ease-in-out;
+	-moz-transition: all 0.2s ease-in-out;
+	-webkit-transition: all 0.2s ease-in-out;
+	-o-transition: all 0.2s ease-in-out; 
+}
+
+.btn-stroke-blue:hover {
+	font-family: 'Inconsolata', Courier, monospace;
+	border: 1px solid #005FE4;
+	color: #fff;
+	background-color: #005FE4;
+}
+
+
+
+/* LITTLE BIG DETAILS */
+
+::-webkit-selection {
+  background: #E5E5E5;
+  color: #212121;
+  text-shadow: none; }
+
+::-moz-selection {
+  background: #E5E5E5;
+  color: #212121;
+  text-shadow: none; }
+
+::selection {
+  background: #E5E5E5;
+  color: #212121;
+  text-shadow: none; }
