@@ -279,6 +279,8 @@ section .social {
   section .social li {
     padding: 0 18px;
     display: inline;
+    width: 20px;
+    height: 20px;
     opacity: 0.3;
     -webkit-transition: all 0.2s ease-in-out;
     -moz-transition: all 0.2s ease-in-out;
@@ -289,24 +291,16 @@ section .social {
       opacity: 1.0; }
 
 .dribbble {
-  background: url(../img/dribbble.svg) no-repeat center center;
-  width: 20px;
-  height: 20px; }
+  background: url(../img/dribbble.svg) no-repeat center center; }
 
 .twitter {
-  background: url(../img/tw.svg) no-repeat center center;
-  width: 20px;
-  height: 20px; }
+  background: url(../img/tw.svg) no-repeat center center; }
 
 .medium {
-  background: url(../img/medium.svg) no-repeat center center;
-  width: 20px;
-  height: 20px; }
+  background: url(../img/medium.svg) no-repeat center center; }
 
 .instagram {
-  background: url(../img/ig.svg) no-repeat center center;
-  width: 20px;
-  height: 20px; }
+  background: url(../img/ig.svg) no-repeat center center; }
 
 .latlong {
   font-family: "Karla", Arial, Helvetica, sans-serif;

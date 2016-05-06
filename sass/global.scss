@@ -372,6 +372,8 @@ section{
 		li{
 		padding: 0 18px;
 		display: inline;
+		width: 20px;
+		height: 20px;
 		opacity: 0.3;
 			@include transition(all 0.2s ease-in-out);
 				&:hover {
@@ -381,57 +383,20 @@ section{
 	}
 }
 
-// section .col-1{
-//   float: left;
-//   width: 25%;
-// }
-
-// section .col-2{
-//   float: left;
-//   width: 25%;
-// }
-
-// section .social{
-//   float: left;
-//   width: 50%;
-// }
-
-// section .social ul{
-//   float: right;
-// }
-
-// .social li{
-// 	padding: 0 18px;
-// 	display: inline;
-// 	opacity: 0.3;
-// 	@include transition(all 0.2s ease-in-out);
-// 		&:hover {
-// 		opacity: 1.0;
-// 	}
-// }
-
 .dribbble{
 	background: url(../img/dribbble.svg) no-repeat center center;
-	width: 20px;
-	height: 20px;
 }
 
 .twitter{
 	background: url(../img/tw.svg) no-repeat center center;
-	width: 20px;
-	height: 20px;
 }
 
 .medium{
 	background: url(../img/medium.svg) no-repeat center center;
-	width: 20px;
-	height: 20px;
 }
 
 .instagram{
 	background: url(../img/ig.svg) no-repeat center center;
-	width: 20px;
-	height: 20px;
 }
 
 .latlong{
